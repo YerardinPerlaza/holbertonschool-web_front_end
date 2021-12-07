@@ -199,7 +199,7 @@ ul.row{
     position: relative;
 }
 .card-testimonial .card-quote::before {
-    content: \201C;
+    content: "\201C";
     position: absolute;
     top: -4.5rem;
     left: -1rem;
@@ -219,7 +219,7 @@ ul.row{
 .card-work:hover .card-outer {
     transform: scale(0.95);
 }
-.card-work .card-image {
+.card-work .card-image img {
     height: 30rem;
     width: 100%;
     object-fit: cover;
@@ -298,7 +298,7 @@ ul.row{
     --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0;
-    --nav-item-link-hover: var(--color-primary);
+    --nav-item-link-hover: var(--color-white);
     --section-tagline-margin: 0;
     --button-display: inline-block;
     --button-padding: 1.5rem 3rem;
