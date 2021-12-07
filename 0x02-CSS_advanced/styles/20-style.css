@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
-ul .row{
+ul.row{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -120,7 +120,7 @@ ul .row{
     text-align: right;
 }
 .row::after {
-    content: none;
+    content: "";
     display: table;
     clear: both;
 }
