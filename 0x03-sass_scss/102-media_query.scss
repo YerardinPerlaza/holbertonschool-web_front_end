@@ -9,8 +9,8 @@ h1 {
     }
     @media screen and (max-width: 320px) {
         font-size: 14px;
-        .small {
-            color: #1d1d1d;
+        &.small {
+            color: #1D1D1D;
         }
     }
 }
