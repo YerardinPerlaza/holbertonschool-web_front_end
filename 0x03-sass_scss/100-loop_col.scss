@@ -1,0 +1,6 @@
+/* ass file that creates classes with different width*/ 
+@for $col_num from 1 through 4 {
+    .col-#{$col_num} {
+      width: (100%/$col_num);
+    }
+  }
