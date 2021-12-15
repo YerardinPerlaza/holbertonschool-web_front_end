@@ -1,0 +1,45 @@
+:root {
+    --color-box1: greenyellow;
+    --color-box2: blue;
+    --color-box3: darkblue;
+    --color-box4: purple;
+    --color-box5: orange;
+}
+
+.box1 {
+    background-color: var(--color-box1);
+    padding: 1%;
+    font-size: 1.5rem;
+}
+.box2 {
+    background-color: var(--color-box2);
+    padding: 1%;
+    font-size: 3rem;
+}
+.box3 {
+    background-color: var(--color-box3);
+    padding: 1%;
+    font-size: 5rem;
+}
+.box4 {
+    background-color: var(--color-box4);
+    padding: 1%;
+    font-size: 3rem;
+
+}
+.box5 {
+    background-color: var(--color-box5);
+    padding: 1%;
+    font-size: 1.5rem;
+}
+
+[class*='box'] {
+    color: white;
+}
+
+.container {
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+    align-items: center;
+}
