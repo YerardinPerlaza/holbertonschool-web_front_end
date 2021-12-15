@@ -4,42 +4,44 @@
     --color-box3: darkblue;
     --color-box4: purple;
     --color-box5: orange;
+    --font-size-small: 1.5rem;
+    --font-size-medium: 3rem;
+    --font-size-large: 5rem;
 }
 
 .box1 {
     background-color: var(--color-box1);
-    padding: 1%;
-    font-size: 1.5rem;
+    font-size: var(--font-size-small);
 }
+
 .box2 {
     background-color: var(--color-box2);
-    padding: 1%;
-    font-size: 3rem;
+    font-size: var(--font-size-medium);
 }
+
 .box3 {
     background-color: var(--color-box3);
-    padding: 1%;
-    font-size: 5rem;
+    font-size: var(--font-size-large);
 }
+
 .box4 {
     background-color: var(--color-box4);
-    padding: 1%;
-    font-size: 3rem;
-
+    font-size: var(--font-size-medium);
 }
+
 .box5 {
     background-color: var(--color-box5);
-    padding: 1%;
-    font-size: 1.5rem;
+    font-size: var(--font-size-small);
 }
 
 [class*='box'] {
     color: white;
+    padding: 1%;
 }
 
 .container {
     display: flex;
     margin-top: 2%;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
 }
